@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Itim', cursive;
+}
+
+.menu {
+    background-color: rgba(201, 103, 171, 0.8);
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.navegador {
+    justify-content: flex-end;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+
+.navegador li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navegador li {
+    margin: 10px;
+    color: white;
+    font-size: 1.1em;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.quienes-somos {
+    background-color: rgb(25, 27, 29);
+    display: flex;
+    text-align: center;
+}
+
+.quienes-somos p {
+    display: flex;
+    margin-top: 200px;
+    padding: 20px;
+    color: white;
+    font-size: 2em;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(25, 27, 29);
+}
+
+.button-add {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(201, 103, 171, 0.8);
+    /* Green */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+}
+
+.button-add:hover {
+    background-color: #9a43a1;
+    /* Green */
+    color: white;
+}
+
+.button {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.button-check {
+    margin-left: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: 2px solid rgba(201, 103, 171, 0.8);
+    transition-duration: 0.4s;
+    position: relative;
+    right: 10px;
+    bottom: -5px;
+    /* para bajar subir boton */
+    padding: 10px 20px;
+}
+
+.button-check:hover {
+    background-color: #9a43a1;
+    /* azul */
+    color: white;
+}
+
+.page-nav {
+    background-color: rgba(201, 103, 171, 0.8);
+    border: 1px solid black;
+    position: relative;
+}
+
+.page-nav h1 {
+    margin: 30px;
+}
+
+.page-content {
+    display: block;
+    border: 1px solid white;
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.product-container img {
+    width: 300px;
+    height: 300px;
+}
+
+.product-container h3 {
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.product-container h2 {
+    color: rgba(201, 103, 171, 0.8);
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icons i {
+    color: white;
+    font-size: 2em;
+    margin: 50px 10px;
+}
+
+.icon-facebook:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.icon-instagram:hover {
+    color: #5851db;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
