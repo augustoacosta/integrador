@@ -52,7 +52,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: rgb(25, 27, 29);
+    background-color: black;
 }
 
 .button-add {
